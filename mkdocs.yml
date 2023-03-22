@@ -1,0 +1,29 @@
+site_name: Docs
+language: en
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+
+  palette:
+    - scheme: default # to je komentar
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+
+
+plugins:
+  - awesome-pages
